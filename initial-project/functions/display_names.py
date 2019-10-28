@@ -3,6 +3,7 @@ def display_names(first, second):
 
 names = {"first": "Colt", "second": "Rusty"}
 
-display_names(first="Charlie", second="Hi")
+display_names(first="Charlie", second="James")
 
 display_names(**names)
+
