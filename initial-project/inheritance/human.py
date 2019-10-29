@@ -28,7 +28,7 @@ class Moderator(Human):
     total_mods = 0
 
     def __init__(self, first, last, age, community):
-        super.__init__(first, last, age)
+        super().__init__(first, last, age)
         self.community = community
         Moderator.total_mods += 1
 
