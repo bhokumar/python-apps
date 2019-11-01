@@ -1,15 +1,8 @@
-class Card:
-
-    def __init__(self, suite, value):
-        self.suite = suite
-        self.value = value
-
-    def __repr__(self):
-        return f"{self.value} of {self.suite}"
+from card import Card
 
 
 class Deck:
- 	def __init__(self):
+	def __init__(self):
 		suits = ["Hearts", "Diamonds", "Clubs", "Spades"]
 		values = ['A','2','3','4','5','6','7','8','9','10','J','Q','K']
 		self.cards = [Card(value, suit) for suit in suits for value in values]
