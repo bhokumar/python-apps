@@ -1,0 +1,13 @@
+https://pythex.org/
+https://www.rexegg.com/regex-quickstart.html
+https://docs.python.org/3/library/re.html
+
+Quantifies in python:
+
++       | one ore more
+{3}     | Exactly three times
+{3,5}   | Three to five times
+{4,}    | Four or more times
+*       | Zero or more times
+?       | Once or None (Optional)
+
