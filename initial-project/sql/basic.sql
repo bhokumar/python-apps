@@ -1,0 +1,24 @@
+CREATE TABLE dogs (
+    name TEXT,
+    breed TEXT,
+    age INTEGER
+);
+
+
+CREATE TABLE cats (
+    name TEXT,
+    breed TEXT,
+    age INTEGER
+);
+
+INSERT INTO CATS (NAME, BREED, AGE) VALUES('Blue', 'Scottish fold', 3);
+
+INSERT INTO DOGS(NAME, AGE, BREED) VALUES('Champ', 4, 'Husky');
+INSERT INTO DOGS(NAME, AGE, BREED) VALUES('Rose', 11, 'Chihuahua');
+INSERT INTO DOGS(NAME, AGE, BREED) VALUES('Moose', 5, 'Lab');
+INSERT INTO DOGS(NAME, AGE, BREED) VALUES('Piggy', 9, 'Corgi');
+
+INSERT INTO DOGS(NAME, AGE, BREED) VALUES('Maggie', 4, 'Terrier');
+INSERT INTO DOGS(NAME, AGE, BREED) VALUES('River', 7, 'Husky');
+INSERT INTO DOGS(NAME, AGE, BREED) VALUES('Archer', 8, 'Pitbull');
+INSERT INTO DOGS(NAME, AGE, BREED) VALUES('Pam', 2, 'Pug');
